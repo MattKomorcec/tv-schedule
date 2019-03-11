@@ -1,0 +1,19 @@
+.show {
+  display: inline-block;
+  border-right: 1px solid #c5c6c7;
+  border-bottom: 1px solid #c5c6c7;
+  padding: 15px 3px;
+  font-size: 12px;
+  position: absolute;
+  margin: 0;
+  height: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.full-size {
+  background: tomato;
+  color: #fff;
+  z-index: 1;
+}

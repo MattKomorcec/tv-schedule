@@ -1,0 +1,35 @@
+@import './show.css';
+
+/*
+ Styling the scrollbar so it doesn't look boring.
+*/
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c5c6c7;
+  outline: 1px solid slategrey;
+}
+
+.content {
+  overflow-y: auto;
+  min-height: 615px;
+  text-align: left;
+}
+
+.is-running {
+  background: #45a29e;
+  color: #0b0c10;
+}
+
+.timeline {
+  width: 1px;
+  background: orange;
+  z-index: 1010;
+  height: calc(100% + 60px);
+  margin-top: -60px;
+}
